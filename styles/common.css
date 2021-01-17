@@ -1,0 +1,51 @@
+header{
+    
+    display: flex;
+    flex-direction:row;
+    width: 100%;
+    /* background-color: gray; */
+    justify-content: space-between;
+    height:15%;    
+    position: relative;
+}
+
+button{
+    background-color: blue;
+    color: white;
+    border: 0px;
+}
+
+.page-header{    
+    margin: 10px;
+}
+.registration{    
+    margin: 10px;
+}
+.headerbutton{
+    background-color: blue;
+    color: white;
+    border: 0px;
+	margin: 10px;
+}
+.modalbtn{
+	background-color: green;
+    color: white;
+    border: 0px;
+}
+#heading{
+    font-family: 'Montez', cursive; 
+    color: blue;
+}
+#subheading{
+    font-family:'Ubuntu Mono';
+}
+
+#signupsection{
+	margin-top: 10px;
+    text-align: center;
+}
+
+#signuplink{
+    color:blue;
+    cursor: pointer;
+}
