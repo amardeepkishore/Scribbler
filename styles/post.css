@@ -1,0 +1,48 @@
+html, body{
+    height:100%;
+}
+.title{
+    text-align: center;
+}
+.update_div{
+    display: flex;
+    flex-direction:row;
+    width: 100%;
+    justify-content: space-between;
+    height:10%;    
+    position: relative;
+    padding: 10px;
+}
+.updatebutton{
+    width: auto;
+    height: 100%;  
+    
+}
+.users{
+    width: auto;  
+    height: 100%;  
+    
+}
+
+.buttons{
+    background-color: red;
+    border: 0px;
+    cursor: pointer;
+}
+p{
+    text-align: justify;
+}
+.flex-container{
+    width: 100%;
+    padding: 10px;        
+}
+.addedcomments{
+    border: 15px solid gray;
+}
+li{
+    margin-left: -40px;
+    border: 10px solid gainsboro;
+}
+.commentsection{
+    margin-top: 10px;
+}
