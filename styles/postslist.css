@@ -1,0 +1,166 @@
+html, body{
+    height:100%;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0%;
+}
+
+ .postsdiv{
+    height: auto;
+    width:40%;
+    margin: 20px;    
+    display: flex;
+    float: left;
+}
+
+body{
+    justify-content: center;
+    align-items: center;
+    background-color: #ffeedd;
+    margin-top: 10px;
+}
+
+.usernamediv{
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    background-color: white;    
+    height: 150px;
+    width:20%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    font-weight: bold;
+}
+.contentdiv{
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: gainsboro;
+    height: 150px;
+    width:80%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+    padding-left: 10px;
+}
+
+.headingcontent{
+    margin-top: 20px;
+    width: 80%;
+    float: left;
+}
+.trashicon{
+    margin-top: 20px;
+    width: 20%;
+    float: right;
+    cursor: pointer;
+}
+.contentspara{
+    width: 85%;
+    float: left;
+    width: 80%;
+    line-height: 1.2em;
+    height: 3.6em;
+    background-color: gainsboro;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+}
+.eclipsicon{
+    margin-top:10%;
+    width:20%;
+    float: right;
+    cursor: pointer;
+}
+.btnconfirmation{
+    margin-top:15px;
+}
+.postsdiv:hover {
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 2px 2px 4px #000000;
+}
+
+#btnYes{
+    background-color: green;
+    float: left;
+}
+#btnNo{
+    background-color: red;
+    float: right;
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .postsdiv {
+        height: auto;
+        width:40%;
+        /* background-color: red; */
+        margin: 20px;    
+        display: flex;
+        float: left;
+    }
+    .usernamediv{
+        border-bottom-left-radius: 15px;
+        border-top-left-radius: 15px;
+        background-color: white;    
+        height: auto;
+        width:auto;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        display: flex;
+        font-weight: bold;
+        font-size: small;
+    }
+    .contentdiv{
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        background-color: gainsboro;
+        height: auto;
+        width:auto;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: small;
+        padding-left:5px;
+        /* text-align: justify;    
+        justify-content: center;
+        font-size: small;
+        padding: 15px; */
+    }
+    .contentspara{
+        float: left;
+        width: auto;
+        line-height: 1.0em;
+        height: 3.0em;
+        background-color: gainsboro;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+    }
+    .headingcontent{
+        line-height: 1.0em;
+        margin-top: 10px;
+        width: auto;
+        height: 3.0em;
+        font-size: small;
+    }
+    .trashicon{
+        margin-top:5px;
+        width: 10%;
+        float: right;
+        cursor: pointer;
+    } 
+  }
