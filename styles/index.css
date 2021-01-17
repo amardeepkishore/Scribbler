@@ -1,0 +1,35 @@
+body{
+    background-image:url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+    margin-top: 10px;
+    height: 100%;
+}
+.container{    
+    width: auto;  
+    height: 500px;
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+}
+.posts-buttons{
+    text-align: center;
+	padding: 10px;
+    margin: 10px;
+    width: 100px;
+    background-color: rgb(223, 207, 67);
+    color: black;
+    border-color: white;
+    border-style: groove;
+}
+
+
+#btnCreatePost{
+    background-color: green;
+}
+.divCreatePost{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
